@@ -7,7 +7,29 @@ Get your full-stack Hello World application running in under 5 minutes!
 ### Prerequisites
 - Install [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 
-### Steps
+### Method 1: One-Command Deploy (Recommended)
+
+1. **Navigate to project directory**:
+   ```bash
+   cd /Users/nitishkumarharsoor/Documents/1.Learnings/1.Projects/4.Experiments/3.Website
+   ```
+
+2. **Run the deployment script**:
+   ```bash
+   ./deploy-local.sh
+   ```
+
+   This script will:
+   - Check if Docker is running
+   - Build and start both services
+   - Verify health of backend and frontend
+   - Show you the URLs to access
+
+3. **Open your browser**:
+   - Frontend: http://localhost:3000
+   - Backend API: http://localhost:8000/docs
+
+### Method 2: Manual Docker Compose
 
 1. **Navigate to project directory**:
    ```bash
@@ -138,7 +160,9 @@ Once everything is running:
    - Modify the UI in `frontend/src/app/page.tsx`
    - Both have hot-reload enabled!
 
-3. **Read the Full Documentation**: Check out [README.md](README.md) for detailed information
+3. **Deploy to Production**: Check out [docs/deployment/START_HERE.md](docs/deployment/START_HERE.md) for cloud deployment guides
+
+4. **Read the Full Documentation**: Check out [README.md](README.md) for detailed information
 
 ---
 

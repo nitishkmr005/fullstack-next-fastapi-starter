@@ -1,5 +1,10 @@
 # Full-Stack Hello World Application
 
+[![Deploy Ready](https://img.shields.io/badge/deploy-ready-brightgreen.svg)](./DEPLOYMENT.md)
+[![Docker](https://img.shields.io/badge/docker-compose-blue.svg)](./docker-compose.yaml)
+[![Next.js](https://img.shields.io/badge/Next.js-15-black.svg)](https://nextjs.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-green.svg)](https://fastapi.tiangolo.com/)
+
 A modern full-stack web application demonstrating frontend-backend communication using industry-standard technologies. This project serves as a template and learning resource for building scalable web applications.
 
 ## 🎯 Objective
@@ -25,10 +30,31 @@ The application follows a client-server architecture:
 2. **Backend (FastAPI)**: Runs on port 8000, serves API endpoints
 3. **Communication**: Frontend fetches data from backend via REST API
 
+## 📚 Documentation Structure
+
+All documentation is organized in the `docs/` directory:
+
+- **[docs/README.md](./docs/README.md)** - Documentation overview and navigation
+- **[docs/deployment/](./docs/deployment/)** - Complete deployment guides
+  - [START_HERE.md](./docs/deployment/START_HERE.md) - Quick start guide
+  - [GUIDE.md](./docs/deployment/GUIDE.md) - Comprehensive guide for all platforms
+  - [QUICK.md](./docs/deployment/QUICK.md) - Quick reference
+  - [INDEX.md](./docs/deployment/INDEX.md) - Navigation guide
+
 ## 📁 Project Structure
 
 ```
 3.Website/
+├── docs/                        # Documentation
+│   ├── README.md               # Documentation overview
+│   └── deployment/             # Deployment guides
+│       ├── START_HERE.md       # Quick start
+│       ├── GUIDE.md            # Complete guide
+│       ├── QUICK.md            # Quick reference
+│       ├── SUMMARY.md          # Overview
+│       ├── INDEX.md            # Navigation
+│       └── CHANGES.md          # Change log
+│
 ├── frontend/                    # Next.js Frontend Application
 │   ├── src/
 │   │   └── app/
@@ -299,16 +325,61 @@ This is a learning project. Feel free to:
 
 This project is open source and available for educational purposes.
 
+## 🚀 Deployment
+
+**Your app is 100% ready for deployment!** 
+
+### 🎯 Quick Start
+
+**Local (1 minute):**
+```bash
+./deploy-local.sh
+```
+
+**Cloud (10 minutes):**
+See **[docs/deployment/START_HERE.md](./docs/deployment/START_HERE.md)** for step-by-step Render deployment
+
+### 📚 Deployment Documentation
+
+| Guide | Purpose | Time |
+|-------|---------|------|
+| **[docs/deployment/START_HERE.md](./docs/deployment/START_HERE.md)** | 🎯 **Start here!** Quick deploy guide | 2 min |
+| **[docs/deployment/QUICK.md](./docs/deployment/QUICK.md)** | Quick reference & commands | 2 min |
+| **[docs/deployment/SUMMARY.md](./docs/deployment/SUMMARY.md)** | Complete overview | 5 min |
+| **[docs/deployment/GUIDE.md](./docs/deployment/GUIDE.md)** | All platforms (Render, Railway, Vercel, AWS, etc.) | 20 min |
+| **[docs/deployment/INDEX.md](./docs/deployment/INDEX.md)** | Navigation guide | 1 min |
+
+### 🛠️ Helper Scripts
+
+```bash
+./deploy-local.sh        # Deploy locally with Docker
+./deploy-check.sh        # Pre-deployment verification
+./check-deployment.sh    # Check deployment status
+```
+
+### 🌐 Supported Platforms
+
+1. **Render** - Easiest, free tier available
+2. **Railway** - Fast, $5/month credit
+3. **Vercel + Render** - Best Next.js performance
+4. **DigitalOcean** - Managed platform, $10/month
+5. **Fly.io** - Docker-focused, edge computing
+6. **AWS ECS/Fargate** - Enterprise-grade
+
+**See [docs/deployment/GUIDE.md](./docs/deployment/GUIDE.md) for detailed guides for each platform.**
+
 ## 👨‍💻 Next Steps
 
 Now that you have a working full-stack application, consider:
 
-1. **Add Database**: Integrate PostgreSQL or MongoDB
-2. **Add Authentication**: Implement user login/signup
-3. **Add More Endpoints**: Create CRUD operations
-4. **Deploy**: Deploy to cloud platforms (Vercel for frontend, Railway/Render for backend)
+1. **Deploy to Production**: Follow [DEPLOYMENT.md](./DEPLOYMENT.md) guide
+2. **Add Database**: Integrate PostgreSQL or MongoDB
+3. **Add Authentication**: Implement user login/signup
+4. **Add More Endpoints**: Create CRUD operations
 5. **Add State Management**: Use Redux or Zustand for complex state
 6. **Add Testing**: Expand test coverage on both frontend and backend
+7. **Set up CI/CD**: Automate deployment with GitHub Actions
+8. **Add Monitoring**: Integrate Sentry, LogRocket, or similar tools
 
 Happy coding! 🚀
 
