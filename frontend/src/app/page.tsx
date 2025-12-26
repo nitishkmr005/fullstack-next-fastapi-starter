@@ -68,7 +68,9 @@ export default function Home() {
 
         // Make HTTP GET request to the FastAPI backend
         // fetch() is a browser API for making HTTP requests
-        const response = await fetch("http://localhost:8000/api/hello");
+        // Use environment variable or fallback to localhost for development
+        const apiUrl = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
+        const response = await fetch(`${apiUrl}/api/hello`);
 
         // Check if the HTTP response is successful (status 200-299)
         if (!response.ok) {
