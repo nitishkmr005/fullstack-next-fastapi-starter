@@ -23,6 +23,22 @@ logs/
 # Docker
 docker-compose.override.yml
 
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+.Python
+venv/
+env/
+*.egg-info/
+
+# Build outputs
+.next/
+out/
+build/
+dist/
+*.whl
+
 # Misc
 .cursor/
 
