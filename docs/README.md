@@ -20,11 +20,15 @@ Welcome to the documentation for the Full-Stack Hello World Application!
 
 ### 🚀 Deployment Documentation
 - **[deployment/START_HERE.md](./deployment/START_HERE.md)** - 🎯 **Start here for deployment!**
-- **[deployment/QUICK.md](./deployment/QUICK.md)** - Quick deployment reference
-- **[deployment/SUMMARY.md](./deployment/SUMMARY.md)** - Complete deployment overview
-- **[deployment/GUIDE.md](./deployment/GUIDE.md)** - Comprehensive guide for all platforms
-- **[deployment/INDEX.md](./deployment/INDEX.md)** - Deployment documentation navigation
-- **[deployment/CHANGES.md](./deployment/CHANGES.md)** - Summary of deployment changes
+- **[deployment/README.md](./deployment/README.md)** - Deployment documentation index
+
+**Platform-Specific Guides:**
+- **[deployment/render.md](./deployment/render.md)** - Deploy to Render (easiest)
+- **[deployment/railway.md](./deployment/railway.md)** - Deploy to Railway (fast)
+- **[deployment/vercel.md](./deployment/vercel.md)** - Deploy to Vercel + Render
+- **[deployment/digitalocean.md](./deployment/digitalocean.md)** - Deploy to DigitalOcean
+- **[deployment/flyio.md](./deployment/flyio.md)** - Deploy to Fly.io
+- **[deployment/local.md](./deployment/local.md)** - Local deployment with Docker
 
 ## Documentation Structure
 

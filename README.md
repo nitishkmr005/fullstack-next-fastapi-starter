@@ -344,10 +344,11 @@ See **[docs/deployment/START_HERE.md](./docs/deployment/START_HERE.md)** for ste
 | Guide | Purpose | Time |
 |-------|---------|------|
 | **[docs/deployment/START_HERE.md](./docs/deployment/START_HERE.md)** | 🎯 **Start here!** Quick deploy guide | 2 min |
-| **[docs/deployment/QUICK.md](./docs/deployment/QUICK.md)** | Quick reference & commands | 2 min |
-| **[docs/deployment/SUMMARY.md](./docs/deployment/SUMMARY.md)** | Complete overview | 5 min |
-| **[docs/deployment/GUIDE.md](./docs/deployment/GUIDE.md)** | All platforms (Render, Railway, Vercel, AWS, etc.) | 20 min |
-| **[docs/deployment/INDEX.md](./docs/deployment/INDEX.md)** | Navigation guide | 1 min |
+| **[docs/deployment/README.md](./docs/deployment/README.md)** | Platform comparison & navigation | 5 min |
+| **[docs/deployment/local.md](./docs/deployment/local.md)** | Local Docker deployment | 1 min |
+| **[docs/deployment/render.md](./docs/deployment/render.md)** | Deploy to Render (easiest) | 10 min |
+| **[docs/deployment/railway.md](./docs/deployment/railway.md)** | Deploy to Railway (fast) | 5 min |
+| **[docs/deployment/vercel.md](./docs/deployment/vercel.md)** | Vercel + Render (best Next.js) | 15 min |
 
 ### 🛠️ Helper Scripts
 
@@ -366,7 +367,7 @@ See **[docs/deployment/START_HERE.md](./docs/deployment/START_HERE.md)** for ste
 5. **Fly.io** - Docker-focused, edge computing
 6. **AWS ECS/Fargate** - Enterprise-grade
 
-**See [docs/deployment/GUIDE.md](./docs/deployment/GUIDE.md) for detailed guides for each platform.**
+**See [docs/deployment/README.md](./docs/deployment/README.md) for all platform guides and comparison.**
 
 ## 👨‍💻 Next Steps
 
