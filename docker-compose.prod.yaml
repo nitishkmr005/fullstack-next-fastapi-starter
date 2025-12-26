@@ -32,7 +32,7 @@ services:
           cpus: '0.5'
           memory: 256M
 
-  # Next.js Frontend Service (Production)
+  # Next.js Frontend Service (Production)  
   frontend:
     build:
       context: ./frontend
