@@ -116,7 +116,7 @@ NODE_ENV=production
 1. Click **"Create Web Service"**
 2. Wait for deployment (5-10 minutes)
 3. Once deployed, **copy your frontend URL**
-   - Example: `https://hello-frontend.onrender.com`
+   - Example: `https://hello-frontend-rdd1.onrender.com`
 
 ## Step 4: Update CORS
 
@@ -127,7 +127,7 @@ Now that you have both URLs, update the backend CORS configuration:
 3. Find the `CORS_ORIGINS` environment variable
 4. Update it with your actual frontend URL:
    ```
-   CORS_ORIGINS=https://hello-frontend.onrender.com
+   CORS_ORIGINS=https://hello-frontend-rdd1.onrender.com
    ```
 5. Click "Save Changes"
 6. Render will automatically redeploy your backend

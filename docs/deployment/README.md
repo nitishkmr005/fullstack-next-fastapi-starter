@@ -91,24 +91,29 @@ git push -u origin main
    NODE_ENV=production
    ```
 5. Click **"Create Web Service"**
-6. **Copy your frontend URL** (e.g., `https://hello-frontend.onrender.com`)
+6. **Copy your frontend URL** (e.g., `https://hello-frontend-rdd1.onrender.com`)
 
 #### Step 4: Update CORS
 
 1. Go back to backend service settings
 2. Update `CORS_ORIGINS` environment variable:
    ```
-   CORS_ORIGINS=https://hello-frontend.onrender.com
+   CORS_ORIGINS=https://hello-frontend-rdd1.onrender.com
    ```
 3. Save (Render will auto-redeploy)
 
 #### Step 5: Verify
 
 ```bash
-./check-deployment.sh remote https://hello-api-backend.onrender.com https://hello-frontend.onrender.com
+./check-deployment.sh remote https://hello-api-backend.onrender.com https://hello-frontend-rdd1.onrender.com
 ```
 
 🎉 **Done!** Your app is live on Render!
+
+**Live URLs:**
+- Frontend: https://hello-frontend-rdd1.onrender.com
+- Backend: https://hello-api-backend.onrender.com
+- API Docs: https://hello-api-backend.onrender.com/docs
 
 **Complete Render guide:** [render.md](./render.md)
 

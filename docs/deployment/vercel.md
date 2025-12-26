@@ -116,12 +116,13 @@ This creates a production deployment with your environment variables.
 Update your backend on Render to allow requests from Vercel:
 
 1. Go to [Render Dashboard](https://dashboard.render.com/)
-2. Select your backend service
+2. Select your backend service (e.g., `hello-api-backend`)
 3. Go to "Environment"
 4. Update `CORS_ORIGINS`:
    ```
    CORS_ORIGINS=https://your-app.vercel.app
    ```
+   (Replace with your actual Vercel URL)
 5. Save changes (Render will auto-redeploy)
 
 ## Verification
