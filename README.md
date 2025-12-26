@@ -337,18 +337,19 @@ This project is open source and available for educational purposes.
 ```
 
 **Cloud (10 minutes):**
-See **[docs/deployment/START_HERE.md](./docs/deployment/START_HERE.md)** for step-by-step Render deployment
+See **[docs/deployment/README.md](./docs/deployment/README.md)** for complete deployment guide
 
 ### 📚 Deployment Documentation
 
 | Guide | Purpose | Time |
 |-------|---------|------|
-| **[docs/deployment/START_HERE.md](./docs/deployment/START_HERE.md)** | 🎯 **Start here!** Quick deploy guide | 2 min |
-| **[docs/deployment/README.md](./docs/deployment/README.md)** | Platform comparison & navigation | 5 min |
+| **[docs/deployment/README.md](./docs/deployment/README.md)** | 🎯 **Complete deployment guide** | 10 min |
 | **[docs/deployment/local.md](./docs/deployment/local.md)** | Local Docker deployment | 1 min |
 | **[docs/deployment/render.md](./docs/deployment/render.md)** | Deploy to Render (easiest) | 10 min |
 | **[docs/deployment/railway.md](./docs/deployment/railway.md)** | Deploy to Railway (fast) | 5 min |
 | **[docs/deployment/vercel.md](./docs/deployment/vercel.md)** | Vercel + Render (best Next.js) | 15 min |
+| **[docs/deployment/digitalocean.md](./docs/deployment/digitalocean.md)** | Deploy to DigitalOcean | 15 min |
+| **[docs/deployment/flyio.md](./docs/deployment/flyio.md)** | Deploy to Fly.io | 10 min |
 
 ### 🛠️ Helper Scripts
 

@@ -160,7 +160,7 @@ Once everything is running:
    - Modify the UI in `frontend/src/app/page.tsx`
    - Both have hot-reload enabled!
 
-3. **Deploy to Production**: Check out [docs/deployment/START_HERE.md](docs/deployment/START_HERE.md) for cloud deployment guides
+3. **Deploy to Production**: Check out [docs/deployment/README.md](docs/deployment/README.md) for cloud deployment guides
 
 4. **Read the Full Documentation**: Check out [README.md](README.md) for detailed information
 

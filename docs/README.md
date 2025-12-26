@@ -1,104 +1,60 @@
 # Table of Contents
 - [Documentation Overview](#documentation-overview)
-- [Quick Navigation](#quick-navigation)
+- [Quick Links](#quick-links)
 - [Documentation Structure](#documentation-structure)
-- [Getting Started](#getting-started)
-- [For Developers](#for-developers)
-- [For Deployment](#for-deployment)
 
 ---
 
 # Documentation Overview
 
-Welcome to the documentation for the Full-Stack Hello World Application!
+Complete documentation for the Full-Stack Hello World Application.
 
-## Quick Navigation
+## Quick Links
 
 ### 📖 Main Documentation
-- **[../README.md](../README.md)** - Project overview, features, and setup
+- **[../README.md](../README.md)** - Project overview, features, and architecture
 - **[../Quickstart.md](../Quickstart.md)** - Get started in 5 minutes
 
-### 🚀 Deployment Documentation
-- **[deployment/START_HERE.md](./deployment/START_HERE.md)** - 🎯 **Start here for deployment!**
-- **[deployment/README.md](./deployment/README.md)** - Deployment documentation index
+### 🚀 Deployment
+- **[deployment/README.md](./deployment/README.md)** - 🎯 **Complete deployment guide**
 
 **Platform-Specific Guides:**
-- **[deployment/render.md](./deployment/render.md)** - Deploy to Render (easiest)
-- **[deployment/railway.md](./deployment/railway.md)** - Deploy to Railway (fast)
-- **[deployment/vercel.md](./deployment/vercel.md)** - Deploy to Vercel + Render
-- **[deployment/digitalocean.md](./deployment/digitalocean.md)** - Deploy to DigitalOcean
-- **[deployment/flyio.md](./deployment/flyio.md)** - Deploy to Fly.io
-- **[deployment/local.md](./deployment/local.md)** - Local deployment with Docker
+- [render.md](./deployment/render.md) - Deploy to Render (easiest, free tier)
+- [railway.md](./deployment/railway.md) - Deploy to Railway (fast, CLI-based)
+- [vercel.md](./deployment/vercel.md) - Deploy to Vercel + Render (best Next.js)
+- [digitalocean.md](./deployment/digitalocean.md) - Deploy to DigitalOcean
+- [flyio.md](./deployment/flyio.md) - Deploy to Fly.io
+- [local.md](./deployment/local.md) - Local deployment with Docker
 
 ## Documentation Structure
 
 ```
 docs/
-├── README.md                    # This file - Documentation overview
+├── README.md                    # This file - Documentation index
 └── deployment/                  # Deployment documentation
-    ├── START_HERE.md           # 🎯 Quick start deployment guide
-    ├── QUICK.md                # Quick reference
-    ├── SUMMARY.md              # Complete overview
-    ├── GUIDE.md                # Comprehensive platform guide
-    ├── INDEX.md                # Navigation guide
-    └── CHANGES.md              # Deployment changes log
+    ├── README.md               # Complete deployment guide
+    ├── render.md               # Render platform guide
+    ├── railway.md              # Railway platform guide
+    ├── vercel.md               # Vercel + Render guide
+    ├── digitalocean.md         # DigitalOcean guide
+    ├── flyio.md                # Fly.io guide
+    └── local.md                # Local deployment guide
 ```
 
-## Getting Started
+---
+
+## Quick Start
 
 ### For Local Development
 1. Read [../README.md](../README.md) for project overview
 2. Follow [../Quickstart.md](../Quickstart.md) to run locally
-3. Explore the codebase and make changes
+3. Explore the codebase
 
 ### For Deployment
-1. Read [deployment/START_HERE.md](./deployment/START_HERE.md) for quick deployment
-2. Or check [deployment/INDEX.md](./deployment/INDEX.md) to find specific guides
-3. Follow platform-specific instructions in [deployment/GUIDE.md](./deployment/GUIDE.md)
-
-## For Developers
-
-### Understanding the Project
-- **Architecture**: See [../README.md - Architecture](../README.md#architecture)
-- **Tech Stack**: See [../README.md - Tech Stack](../README.md#tech-stack)
-- **Project Structure**: See [../README.md - Project Structure](../README.md#project-structure)
-
-### Local Development
-- **Setup**: Follow [../Quickstart.md](../Quickstart.md)
-- **Docker Compose**: Use `docker-compose.yaml` in project root
-- **Testing**: See [../README.md - Testing](../README.md#testing)
-
-## For Deployment
-
-### Quick Deployment
-1. **Local**: Run `./deploy-local.sh` from project root
-2. **Cloud**: See [deployment/START_HERE.md](./deployment/START_HERE.md)
-
-### Platform-Specific Guides
-- **Render**: [deployment/GUIDE.md - Render](./deployment/GUIDE.md#option-a-render-easiest-free-tier)
-- **Railway**: [deployment/GUIDE.md - Railway](./deployment/GUIDE.md#option-b-railway-easy-generous-free-tier)
-- **Vercel**: [deployment/GUIDE.md - Vercel](./deployment/GUIDE.md#option-c-vercel-frontend--render-backend)
-- **AWS**: [deployment/GUIDE.md - AWS](./deployment/GUIDE.md#option-e-aws-ecsfargate-production-grade)
-- **Others**: See [deployment/GUIDE.md](./deployment/GUIDE.md) for all platforms
-
-### Helper Scripts
-From project root:
-```bash
-./deploy-local.sh        # Deploy locally
-./deploy-check.sh        # Pre-deployment checks
-./check-deployment.sh    # Check deployment status
-```
+1. Read [deployment/README.md](./deployment/README.md) for complete guide
+2. Choose your platform from the guides above
+3. Follow step-by-step instructions
 
 ---
 
-## Need Help?
-
-- **Local Development**: Start with [../Quickstart.md](../Quickstart.md)
-- **Deployment**: Start with [deployment/START_HERE.md](./deployment/START_HERE.md)
-- **Troubleshooting**: See [deployment/GUIDE.md - Troubleshooting](./deployment/GUIDE.md#6-common-issues--solutions)
-- **API Documentation**: Visit http://localhost:8000/docs when running locally
-
----
-
-**Happy coding and deploying! 🚀**
-
+**Ready to deploy?** → [deployment/README.md](./deployment/README.md) 🚀
